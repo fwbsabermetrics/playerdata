@@ -37,4 +37,5 @@ cbind(name=cubsnames, zbabip=round(z.cubsbabip, digits=3), babip=cubsbabip)
 mean(bat[bat$Team=="Cubs",]$BABIP)
 
 # How would you calculate the mean and standard deviation of the AL and NL?
+## Example for mean:
 mean(bat[bat$League=='NL',]$BABIP)
